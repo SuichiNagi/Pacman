@@ -1,0 +1,84 @@
+body {
+  background: url('background.jpg') no-repeat center;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+
+div.row {
+  height: 20px;
+}
+
+div.row div {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+div.brick {
+  background: url('brick.jpg') no-repeat center;
+  background-size: cover;
+}
+
+div.cherry {
+  background: url('cherry.png') no-repeat center;
+  background-size: cover;
+}
+
+div.coin {
+  background: url('coin-img.gif') no-repeat center;
+  background-size: cover;
+}
+
+div#ghost {
+  background: url('ghost.gif') no-repeat center;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+div#ghost1 {
+  background: url('ghost1.gif') no-repeat center;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+div#ghost2 {
+  background: url('ghost2.gif') no-repeat center;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+div#pacman {
+  background: url('pacman-img.gif') no-repeat center;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+div#score {
+  border: 5px solid red;
+  border-radius: 6px;
+  width: 100px;
+  height: 50px;
+  color: red;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px 0px 325px;
+  font-size: 25px;
+}
