@@ -1,4 +1,4 @@
-# Pacman
+# Village88 Pacman
 
 Add additional features in the game to make it complete.
 
